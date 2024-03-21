@@ -1,6 +1,5 @@
 from statistics import median, mean, quantiles, variance, mode
 from scipy.stats import kurtosis
-import tabulate
 import matplotlib.pyplot as plt
 
 
@@ -28,7 +27,6 @@ def central_measures(data):
     ["Variância", value_variance],
     ["Desvio padrão", value_standard_deviation]
   ]
-  
   
 
   table = plt.table(results,cellLoc="center" , loc="center", colWidths=[0.75,0.75])

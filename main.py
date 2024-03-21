@@ -12,5 +12,5 @@ data = map(remove_linebreak_transform_float, data)
 data = list(data)
 
 central_measures(data)
-show_graphics(data)
+# show_graphics(data)
 

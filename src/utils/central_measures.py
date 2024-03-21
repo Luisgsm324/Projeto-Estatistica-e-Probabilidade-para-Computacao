@@ -2,7 +2,6 @@ from statistics import median, mean, quantiles, variance, mode
 from scipy.stats import kurtosis
 import matplotlib.pyplot as plt
 
-
 def central_measures(data):
   value_max = max(data)
   value_min = min(data)
@@ -16,7 +15,7 @@ def central_measures(data):
 
   results = [
     ["Medidas", "Valores"],
-    ["Curtosi", value_kurtosis],
+    ["Curtose", value_kurtosis],
     ["Moda", value_mode],
     ["Máximo", value_max],
     ["Mínimo", value_min],
@@ -34,6 +33,6 @@ def central_measures(data):
   table.auto_set_font_size(False)
   table.set_fontsize(12)
   table.scale(0.8, 1.8)
-  plt.show()
   plt.savefig("assets/central_measures.png")
+  plt.show()
   

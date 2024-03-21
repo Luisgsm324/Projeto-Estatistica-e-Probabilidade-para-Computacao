@@ -1,7 +1,6 @@
 import matplotlib.pyplot as plt
-from scipy.stats import normaltest, probplot
+from scipy.stats import probplot
 import seaborn as sns
-import numpy as np
 
 def show_graphics(data):
   
@@ -31,23 +30,4 @@ def show_graphics(data):
   plt.ylabel("Frequência ")
   plt.xlabel("Acurácia (%)")
   plt.savefig("assets/histogram.png")
-  plt.show() 
-
-
-# Criando dados aleatórios
-
-# Criando o gráfico de calor
-  data = np.random.rand(10, 12)
-  print(data)
-  sns.heatmap(data)
-
-# Adicionando título e rótulos dos eixos
-  plt.title('Gráfico de Calor')
-  plt.xlabel('Eixo X')
-  plt.ylabel('Eixo Y')
   plt.show()
-
-
-
-
-

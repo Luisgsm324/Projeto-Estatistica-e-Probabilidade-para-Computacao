@@ -46,3 +46,7 @@ O desenvolvimento do projeto foi realizado em equipe com a utilização da plata
 ## Ferramentas, Bibliotecas e Frameworks utilizados: 
 
 A fim de se chegar em um objetivo satisfatório, certas tecnologias foram utilizadas para que fosse realizado a análise dos dados extraídos das previsões meteorológicas. A adoção da linguagem de programação “Python” tornou-se crucial para o estudo, pois essa tecnologia possui diversos meios para a geração de resultados agradáveis, por meio da geração de gráficos, cálculos envolvendo as medidas centrais e outras questões. Entre as principais bibliotecas utilizadas pode-se citar Numpy, MatplotLib, Scipy, Seaborn e Statistics (biblioteca nativa da linguagem Python). 
+
+## Relatório:
+
+O relatório está nesse link [Relatório](/Análise%20de%20Modelo%20de%20Aprendizagem%20de%20Máquina%20envolvendo%20previsões%20meteorológicas%20na%20cidade%20do%20Recife.docx.pdf)
